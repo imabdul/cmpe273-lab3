@@ -2,6 +2,11 @@
 A simple RESTful key-value cache data store. Idea is to understand consistent hashing.
 <pre>
 1. Server Side
+
+Command to execute: go run /path/to/your/folder/cacheDataStore-server.go
+
+then,
+
 PUT http://localhost:3000/keys/{key_id}/{value}
 E.g. http://localhost:3000/keys/1/foobar
 Response: 200
@@ -27,4 +32,6 @@ Response: [
 
 2. Consistent Hashing on Client Side
 Command to execute: go run /path/to/your/folder/consHashing-client.go
+
+Client side output you can see on console.
 </pre>
