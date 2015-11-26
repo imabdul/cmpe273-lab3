@@ -26,5 +26,5 @@ Response: [
             ]
 
 2. Consistent Hashing on Client Side
-Command to execute: my\dir\go run consHashing-client.go
+Command to execute: go run /path/to/your/folder/consHashing-client.go
 </pre>
